@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>VDA - Contact us</title>
+      <link rel="stylesheet" href="style/stylesheet.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+<script src="components/header.js" type="text/javascript" defer></script>
+<script src="components/footer.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header-component></header-component>
+
+    <!-- GOOGLE MAPS --> 
+    <style type="text/css">
+      #map {
+        height: 600px;
+        width: 100%;
+      }
+    </style>
+      <script>
+        function initMap() {
+          const locat = { lat: -50.6079024679533, lng: 165.97655072424985 };
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 12,
+            center: locat,
+          });
+          const marker = new google.maps.Marker({
+            position: locat,
+            map: map,
+          });
+        }
+      </script>
+      <h1>Our office at</h1>
+      <div id="map"></div>
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbkunl8NeA_6vd8l3fSCxh9FgelUb0o2g&callback=initMap&libraries=&v=weekly"
+        async
+      ></script>
+
+      <!-- Contact us --> 
+      <section id="contact" class="contact">
+         <h1> Contact us</h1>
+          <p>Get in touch today.</p>
+          <p>Email: 2019924@chester.ac.uk</p>
+          <p>Tel: 07970000000</p>
+          <p><b>Disappointment Island,<br>Tasman Sea,<br>New Zealand.</b></p>
+          <a href="https://twitter.com/intent/tweet?button_hashtag=archviz&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #archviz</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </section>
+<!-- Footer -->
+<footer-component></footer-component>
+
+<div>
+  </body>
+</html>
