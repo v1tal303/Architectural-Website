@@ -9,7 +9,7 @@ Allows users to register accounts, login and upload images onto their portfolio 
 
 ## Home page
 
-<img src = "./img_doc/index.jpg">
+<img src="./img_doc/login.jpg" width="602">
 
 ## Login page
 
