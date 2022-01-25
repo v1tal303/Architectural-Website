@@ -7,14 +7,14 @@ This is an architectural portfolio website build during the Msc course
 Allows users to register accounts, login and upload images onto their portfolio profiles. This website is developed without the help of Bootstrap.
 
 
-## index
+## Home page
 
 <img src = "./img_doc/index.jpg">
 
-## login
+## Login page
 
 <img src = "./img_doc/login.jpg">
 
-## gallery
+## Gallery
 
 <img src = "./img_doc/gallery.jpg">
