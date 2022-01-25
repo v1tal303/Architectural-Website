@@ -13,8 +13,8 @@ Allows users to register accounts, login and upload images onto their portfolio 
 
 ## Login page
 
-<img src = "./img_doc/login.jpg">
+<img src = "./img_doc/login.jpg" width="602">
 
 ## Gallery
 
-<img src = "./img_doc/gallery.jpg">
+<img src = "./img_doc/gallery.jpg" width="602">
